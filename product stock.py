@@ -9,7 +9,9 @@ sum=0
 product={"rice":{"price":56,"stock":0},
          "aata":{"price":50,"stock":0},
          "soap":{"price":20,"stock":4},
-         "shampoo":{"price":90,"stock":2}}
+         "shampoo":{"price":90,"stock":2},
+         "Facewash":{"price":120,"stock":6}
+         }
 print("All available products are")
 for i in product:
     print("-",i,"-")
